@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 import pickle
 
 
-tf = pickle.load(open('C:/Users/Right Click/Desktop/AMIT AI/final projects/project1/artifacts/tf_y.pkl','rb'))
+tf = pickle.load(open('artifacts/tf_y.pkl','rb'))
 
 nltk.download('punkt_tab')
 nltk.download('stopwords')
