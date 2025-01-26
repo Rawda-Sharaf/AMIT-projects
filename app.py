@@ -2,7 +2,7 @@ import helper
 import streamlit as st
 import pickle
 
-model = pickle.load(open('C:/Users/Right Click/Desktop/AMIT AI/final projects/project1/artifacts/dt.pkl', 'rb'))
+model = pickle.load(open('artifacts/dt.pkl', 'rb'))
 
 text = st.text_input("Enter your text here")
 
